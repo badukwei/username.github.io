@@ -1,0 +1,32 @@
+html {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0; 
+    background: $lightGrayishCyan;  
+    font-family: 'Public Sans', sans-serif;
+}
+
+.click-button {
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.5;
+        transition: all 0.4s ease;
+    }    
+}
+
+h2 {
+    color: $desaturatedDarkCyan;
+    margin: 0px 0px -5px 2px;
+    font-size: 28px;
+    font-weight: 500;
+}    
+
