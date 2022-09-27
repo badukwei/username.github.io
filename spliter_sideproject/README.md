@@ -1,2 +1,0 @@
-# Receipt
-My first project
