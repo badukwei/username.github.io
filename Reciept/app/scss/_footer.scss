@@ -1,0 +1,51 @@
+.footer {
+    background: $white;
+    margin: 20px auto;
+    padding: 1.625rem;
+    border-radius: 5px;
+    box-shadow: $desaturatedDarkCyan 0px 8px 15px -10px;
+
+
+    &-wrap {
+        background: $lightGrayishBlue;
+        border-radius: inherit;
+        border-left: solid $grayishBlue;
+        display: flex;
+        justify-content: center;
+
+        &-title {
+            margin-right: 20px;
+
+            ul {
+                display: block;
+                list-style-type: none;
+                margin: 0;
+                padding: 30px 0px;
+
+                li {
+                    margin: 10px auto;
+                    text-align: center;  
+                    color: $veryDarkGrayish;                 
+                }
+            }
+
+
+        }
+
+        &-numbers {
+
+            ul {
+                display: block;
+                list-style-type: none;
+                margin: 0;
+                padding: 30px 0px;
+
+                li {
+                    margin: 10px auto;
+                    text-align: center;  
+                    color: $veryDarkGrayish;                 
+                }
+            }
+        }   
+    }
+}
